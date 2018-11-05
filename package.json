@@ -21,7 +21,7 @@
     "watch:browsersync": "browser-sync start --server --files .html, css/.css",
     "watch:sassprefixer": "onchange sass/*.scss -- npm run build:sass -- npm run build:autoprefixer",
     "server": "http-server",
-    "start": "babel script.js --watch --out-file script-compiled.js"
+    "start": "babel js/script.js --watch --out-file script-compiled.js"
   },
   "repository": {
     "type": "git",
